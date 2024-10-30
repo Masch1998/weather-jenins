@@ -7,7 +7,7 @@ const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 // Ecowitt API endpoint with proxy URL added
 // const apiUrl = `${proxyUrl}https://api.ecowitt.net/api/v3/device/${stationId}/data?api_key=${apiKey}&format=json`;
 // const apiUrl = '${proxyUrl}https://api.ecowitt.net/api/v3/device/real_time?application_key=YOUR_APPLICATION_KEY&api_key=YOUR_API_KEY&mac=YOUR_DEVICE_MAC_ADDRESS&call_back=all
-const apiUrl = `${proxyUrl}https://api.ecowitt.net/api/v3/device/real_time?application_key=0D8C7C8B278C5E9469CD336E3B7F85CE&api_key=753bd0bd-4565-47d0-9873-d6b3dbef2428&mac=YF0:08:D1:07:41:B8&call_back=all
+const apiUrl = `${proxyUrl}https://api.ecowitt.net/api/v3/device/real_time?application_key=0D8C7C8B278C5E9469CD336E3B7F85CE&api_key=753bd0bd-4565-47d0-9873-d6b3dbef2428&mac=YF0:08:D1:07:41:B8&call_back=all;
 // Function to fetch and update data
 async function fetchWeatherData() {
   try {
