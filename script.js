@@ -1,5 +1,5 @@
 const apiKey = '753bd0bd-4565-47d0-9873-d6b3dbef2428';
-const stationId = 'F0:08:D1:07:41:B8';
+const stationId = 'Jenins';
 
 // Proxy URL
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
