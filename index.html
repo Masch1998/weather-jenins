@@ -5,21 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather Station Jenins</title>
   <link rel="stylesheet" href="style.css">
+  <script src='https://cdn.plot.ly/plotly-2.35.2.min.js'></script>
 </head>
+
+
 <body>
   <h1>Weather Station Jenins</h1>
-  <h2>
+
+  <h3>
     <div id="time"> Loading Time...</div>
-  </h2>
+  </h3>
   <p>
-    <div id="temperature-display">Loading outdoor temperature...</div>
-    <div id="temperature-feellike">Loading indoor temperature...</div>
-    <script src="script.js"></script>
-  <p>
-    <div id="wind-speed">Loading wind speed...</div>
-    <div id="gust-speed">Loading gust speed...</div>
-    <div id="wind-direction">Loading wind direction...</div>
+  <div id= "OutdoorNow">Loading Outdoor Temperature...</div>
+  <div id= "IndoorNow">Loading Indoor Temperature...</div>
+  <div id= "WindNow">Loading Wind...</div>
   </p>
+
+  <p>
+  <div id="getTemp">Loading outdoor temperature...</div>
+  <div id="getWind">Loading outdoor temperature...</div>
+  <p>
+    <br><br>
+  <p>
+  <h3>7 Day Weather</h3>
+	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+  <p>
+
+  <div id='myWind'><!-- Plotly chart will be drawn inside this DIV --></div>
+  <p>
+  <p>
+  
+  <div id='windDirPlot'><!-- Plotly chart will be drawn inside this DIV --></div>
+  
   <script src="script.js"></script>
 </body>
+
+
+
 </html>
