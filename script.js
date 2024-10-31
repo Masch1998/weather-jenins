@@ -22,7 +22,7 @@ async function fetchWeatherData() {
 }
 
 // Fetch data every 10 seconds
-setInterval(fetchWeatherData, 10000);
+setInterval(fetchWeatherData, 60000);
 
 // Initial fetch
 fetchWeatherData();
