@@ -3,14 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Live JSON Weather Data</title>
+  <title>Weather Data Visualization</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <h1>Live Weather Data (Raw JSON Test)</h1>
-  <div id="weather-data">
-    <pre id="json-display">Loading...</pre>
+  <h1>Live Weather Data Visualization</h1>
+
+  <!-- Add canvas elements for each chart -->
+  <div>
+    <h2>Temperature</h2>
+    <canvas id="temperatureChart"></canvas>
   </div>
+  <div>
+    <h2>Humidity</h2>
+    <canvas id="humidityChart"></canvas>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
