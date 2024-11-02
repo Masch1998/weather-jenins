@@ -133,8 +133,8 @@ async function fetchTemperature() {
     };
 
 
-    document.getElementById('getTemp').textContent = `24h Max/Min Outdoor Temperature: ${maxTemperature}°C / ${minTemperature}°C`;
-    document.getElementById('getWind').textContent = `24h Max Wind/Gust: ${maxWind} m/s / ${maxGust} m/s`;
+    document.getElementById('getTemp').textContent = `7d Max/Min Outdoor Temperature: ${maxTemperature}°C / ${minTemperature}°C`;
+    document.getElementById('getWind').textContent = `7d Max Wind/Gust: ${maxWind} m/s / ${maxGust} m/s`;
 
     var dataDir = [ trace1 ];
 
